@@ -1,0 +1,123 @@
+{
+  "status": 200,
+  "message": "success",
+  "result": {
+    "envelope": {
+      "header": {
+        "site": "NY",
+        "method": "EJB_GPE_SERVICES",
+        "service": "EJB_GPE_SERVICES",
+        "origin": "MNC",
+        "pwkType": "1",
+        "sasUser": "GRCTST04"
+      },
+      "body": {
+        "voOut": {
+          "msgRets": {
+            "msg": {
+              "codeMsg": "00000",
+              "libMsg": "success"
+            }
+          },
+          "objOut": {
+            "titre": "Enquête de refonte en angular",
+            "topActive": "O",
+            "description": "Une petite description de l'enquête,Ceci est un retour à la ligne qu'il faudra prendre en considération",
+            "listPopulationEnquete": {
+              "populationEnquete": {
+                "libPopulationEnquete": "Toute la banque",
+                "idPopulationType": 0,
+                "idPopulationEnquete": 381,
+                "topActive": "O",
+                "listUserCible": "",
+                "taillePopulationEnquete": 0
+              }
+            },
+            "listSection": {
+              "section": {
+                "codeUserCreationSection": "ELIDRIOU",
+                "idSection": 350,
+                "idEnquete": 228,
+                "libSection": "Section 1",
+                "topActive": "O",
+                "dateCreationSection": 20200508104055,
+                "listSectionCondition": "",
+                "listQuestion": {
+                  "question": [
+                    {
+                      "isRequired": "N",
+                      "libQuestion": "Question de type RB : non obligatoire /Affichage non Conditionné/Sans complément de réponse",
+                      "dateCreationQuest": 20200508105630,
+                      "topActive": "O",
+                      "ordreQuestion": 1,
+                      "isSaisissable": "N",
+                      "idParentQuestion": 0,
+                      "nomQuestion": "Question de type RB : non obligatoire /Affichage non Conditionné/Sans complément de réponse",
+                      "listChoixReponse": {
+                        "choixReponse": [
+                          {
+                            "dateCreationReponse": 20200508105630,
+                            "isRequiredCompReponse": "N",
+                            "topActive": "O",
+                            "codeUserCreationReponse": "ELIDRIOU",
+                            "idReponse": 1757,
+                            "libReponse": "Oui",
+                            "flagCompReponse": "N",
+                            "ordreReponse": 1
+                          },
+                          {
+                            "dateCreationReponse": 20200508105630,
+                            "isRequiredCompReponse": "N",
+                            "topActive": "O",
+                            "codeUserCreationReponse": "ELIDRIOU",
+                            "idReponse": 1758,
+                            "libReponse": "Non",
+                            "flagCompReponse": "N",
+                            "ordreReponse": 2
+                          }
+                        ]
+                      },
+                      "listQuestionCondition": "",
+                      "codeUserCreationQuest": "ELIDRIOU",
+                      "typeQuestion": {
+                        "libTypeQuestion": "Radio bouton",
+                        "idTypeQuestion": 3,
+                        "codeTypeQuestion": "RB",
+                        "groupeTypeQuestion": 2
+                      },
+                      "idQuestion": 1273,
+                      "operateurObligation": "ET",
+                      "idTypeQuestion": 0
+                    }
+                  ]
+                }
+              }
+            },
+            "idMotif": 1,
+            "listPj": "",
+            "idEtat": 1,
+            "libMotif": "En cours",
+            "libEtat": "Créée",
+            "idEnquete": 228,
+            "topDescAsSection": "N",
+            "guid": "d85418c4-a70f-4e30-bc85-4144fe3ba1d1",
+            "class": "com.eai.scom.gpe.vos.DetailsQuestEnqueteVoOut"
+          }
+        }
+      }
+    },
+    "body": {
+      "getQuestionnaire": {
+        "idEnquete": "228",
+        "guid": "d85418c4-a70f-4e30-bc85-4144fe3ba1d1",
+        "header": {
+          "codeFede": "35",
+          "site": "NY",
+          "codeBanque": "02281",
+          "codeSas": "ELIDRIOU",
+          "codeCaisse": "78000"
+        }
+      }
+    }
+  }
+}
