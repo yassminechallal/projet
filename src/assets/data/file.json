@@ -88,6 +88,51 @@
                       "idQuestion": 1273,
                       "operateurObligation": "ET",
                       "idTypeQuestion": 0
+                    },
+                    {
+                      "isRequired": "O",
+                      "libQuestion": "Clone : Question de type RB : non obligatoire /Affichage non Conditionné/Sans complément de réponse",
+                      "dateCreationQuest": 20200508105630,
+                      "topActive": "O",
+                      "ordreQuestion": 1,
+                      "isSaisissable": "N",
+                      "idParentQuestion": 0,
+                      "nomQuestion": "Question de type RB : non obligatoire /Affichage non Conditionné/Sans complément de réponse",
+                      "listChoixReponse": {
+                        "choixReponse": [
+                          {
+                            "dateCreationReponse": 20200508105630,
+                            "isRequiredCompReponse": "N",
+                            "topActive": "O",
+                            "codeUserCreationReponse": "ELIDRIOU",
+                            "idReponse": 100,
+                            "libReponse": "Yes",
+                            "flagCompReponse": "N",
+                            "ordreReponse": 1
+                          },
+                          {
+                            "dateCreationReponse": 20200508105630,
+                            "isRequiredCompReponse": "N",
+                            "topActive": "O",
+                            "codeUserCreationReponse": "ELIDRIOU",
+                            "idReponse": 101,
+                            "libReponse": "NO",
+                            "flagCompReponse": "N",
+                            "ordreReponse": 2
+                          }
+                        ]
+                      },
+                      "listQuestionCondition": "",
+                      "codeUserCreationQuest": "ELIDRIOU",
+                      "typeQuestion": {
+                        "libTypeQuestion": "Radio bouton",
+                        "idTypeQuestion": 3,
+                        "codeTypeQuestion": "RB",
+                        "groupeTypeQuestion": 2
+                      },
+                      "idQuestion": 10000,
+                      "operateurObligation": "ET",
+                      "idTypeQuestion": 0
                     }
                   ]
                 }
