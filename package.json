@@ -19,15 +19,16 @@
     "@angular/platform-browser": "~8.1.0",
     "@angular/platform-browser-dynamic": "~8.1.0",
     "@angular/router": "~8.1.0",
+    "@ngx-formly/bootstrap": "^5.0.0",
+    "@ngx-formly/core": "^5.0.0",
     "@ngx-formly/schematics": "^5.6.1",
     "babel-plugin-ts-optchain": "^1.1.5",
+    "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "rxjs": "~6.4.0",
     "ts-optchain": "^0.1.8",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1",
-    "@ngx-formly/core": "^5.0.0",
-    "@ngx-formly/bootstrap": "^5.0.0"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.801.0",

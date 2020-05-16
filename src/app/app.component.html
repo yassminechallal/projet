@@ -1,4 +1,16 @@
-<form [formGroup]="form" (ngSubmit)="submit(model)">
-  <formly-form [model]="model" [fields]="fields" [form]="form"></formly-form>
-  <button type="submit" class="btn btn-primary submit-button">Submit</button>
-</form>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Questionnaire
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <div class="card-text">
+      <form [formGroup]="form" (ngSubmit)="submit(model)">
+        <formly-form [model]="model" [fields]="fields" [form]="form"></formly-form>
+        <button type="submit" class="btn btn-primary submit-button">Submit</button>
+      </form>
+    </div>
+   
+  </div>
+</div>
